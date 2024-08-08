@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#siteContainer
+{
+    width: 90%;
+    margin: auto;
+}
+
+#headerLogo, #headerMenu
+{
+    float: left;
+    background-color: lightblue;
+    height: 100px;
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#banner
+{
+    clear: both;
+    background-color: #DDDDDD;
+    height: 200px;
+}
+
+#main
+{
+    color: navy;
+    margin: 50px;
+    height: 400px;
+}
+
+footer
+{
+    text-align: right;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+button
+{
+    background-color: lightblue;
+    color: navy;
+}
+
+#headerMenu a
+{
+    color: navy;
+    font-size: 150%;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+}
+
+#headerMenu a:hover
+{
+    border: 1px solid navy;
+}
+
+table
+{
+    border-collapse: collapse;
+}
